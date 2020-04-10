@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import background from "../images/background.png"
-import gif from "../images/3609101.svg"
+import imageHome from "../images/stay-at-home.svg"
 
 import "./index.css"
 
@@ -28,7 +28,7 @@ const IndexPage = () => (
           </p>
           <button>Read More</button>
         </div>
-        <img src={gif} alt="Stay At Home" />
+        <img src={imageHome} alt="Stay At Home" />
       </div>
     </div>
   </Layout>
