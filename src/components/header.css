@@ -1,0 +1,52 @@
+header {
+  padding: 20px 0;
+}
+
+header nav {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+header ul li a {
+  color: #0d0d29;
+  padding: 0 15px;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+header ul li button {
+  color: #fff;
+  background: #fb4c47;
+  padding: 14px 36px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 15px;
+  appearance: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+header ul li button::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  background: #fb4c47;
+  transform: skew(14deg, 0deg);
+  right: -6px;
+  border-radius: 0 10px 10px 0;
+}
